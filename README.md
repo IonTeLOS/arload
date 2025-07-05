@@ -1,4 +1,4 @@
-# arload a storage helper for Thyra 
+# arload - a storage helper for Thyra 
 # Thyra Storage CLI
 
 Upload files and messages to Arweave with optional encryption.
