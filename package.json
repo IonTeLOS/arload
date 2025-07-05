@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node thyra-r.js",
+    "cli": "node thyra-r-cli.js",
+    "bundle": "node build.js",
+    "build-linux": "npm run bundle",
+    "dev": "nodemon thyra-r.js",
+    "link": "npm link",
+    "unlink": "npm unlink"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "dotenv": "^17.0.1",
+    "inquirer": "^12.7.0"
+  }
+}
