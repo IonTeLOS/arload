@@ -264,6 +264,11 @@ View logs with debug level:
 ./thyra server --log-level debug
 ```
 
+### Use as cloud function
+
+file arload.js is a version of the same concept adapted to be run as a stateless cloud function. Every time it runs it creates an ephmeral wallet. No DB here, no wallet extraction. 
+This has been tested in Netlify.
+
 ## License
 
 MIT License
